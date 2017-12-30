@@ -1,0 +1,14 @@
+{
+	"name": "phpBB's extensions dependencies",
+	"homepage": "https://satis.phpbb.com",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://packagist.org"
+		}
+	],
+	"require": {
+		"composer/installers": "*"
+	},
+	"require-dependencies": true
+}

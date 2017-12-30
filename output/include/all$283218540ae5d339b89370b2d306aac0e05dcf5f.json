@@ -1,0 +1,2900 @@
+{
+    "packages": {
+        "composer/installers": {
+            "v1.0.0": {
+                "name": "composer/installers",
+                "version": "v1.0.0",
+                "version_normalized": "1.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "eae5f43226c8a3c7b98887c34287772cf227c275"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/eae5f43226c8a3c7b98887c34287772cf227c275",
+                    "reference": "eae5f43226c8a3c7b98887c34287772cf227c275",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev"
+                },
+                "time": "2012-09-08T04:17:33+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.1": {
+                "name": "composer/installers",
+                "version": "v1.0.1",
+                "version_normalized": "1.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "a04e254642d88a9c21e70261072ad486ac675251"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/a04e254642d88a9c21e70261072ad486ac675251",
+                    "reference": "a04e254642d88a9c21e70261072ad486ac675251",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-01-14T07:14:45+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.10": {
+                "name": "composer/installers",
+                "version": "v1.0.10",
+                "version_normalized": "1.0.10.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "35a07647186a910b725fca9290b13ca2e265491a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/35a07647186a910b725fca9290b13ca2e265491a",
+                    "reference": "35a07647186a910b725fca9290b13ca2e265491a",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-01-31T16:53:31+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "agl",
+                    "annotatecms",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.11": {
+                "name": "composer/installers",
+                "version": "v1.0.11",
+                "version_normalized": "1.0.11.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "9a1fd4e191beaa5cab79c05f923d8bcdd01b4e94"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/9a1fd4e191beaa5cab79c05f923d8bcdd01b4e94",
+                    "reference": "9a1fd4e191beaa5cab79c05f923d8bcdd01b4e94",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-02-12T21:21:55+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "agl",
+                    "annotatecms",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.12": {
+                "name": "composer/installers",
+                "version": "v1.0.12",
+                "version_normalized": "1.0.12.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/4127333b03e8b4c08d081958548aae5419d1a2fa",
+                    "reference": "4127333b03e8b4c08d081958548aae5419d1a2fa",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-02-24T04:21:34+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.13": {
+                "name": "composer/installers",
+                "version": "v1.0.13",
+                "version_normalized": "1.0.13.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+                    "reference": "26d37e307f9aa6e2e81806a6525666f8ab5ba0ff",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-04-09T16:12:43+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.14": {
+                "name": "composer/installers",
+                "version": "v1.0.14",
+                "version_normalized": "1.0.14.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "8281faa96186b18db9d53e8dbeb2d549c66d9cdc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/8281faa96186b18db9d53e8dbeb2d549c66d9cdc",
+                    "reference": "8281faa96186b18db9d53e8dbeb2d549c66d9cdc",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-06-18T15:29:19+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.15": {
+                "name": "composer/installers",
+                "version": "v1.0.15",
+                "version_normalized": "1.0.15.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "8e6a72a78f6cfd537fde3350720dfdc9ae3c5621"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/8e6a72a78f6cfd537fde3350720dfdc9ae3c5621",
+                    "reference": "8e6a72a78f6cfd537fde3350720dfdc9ae3c5621",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-06-23T16:25:28+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.16": {
+                "name": "composer/installers",
+                "version": "v1.0.16",
+                "version_normalized": "1.0.16.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/033679ad3cfc5ab759f9ed2a58881aeef13c342b",
+                    "reference": "033679ad3cfc5ab759f9ed2a58881aeef13c342b",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-07-21T15:54:34+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.17": {
+                "name": "composer/installers",
+                "version": "v1.0.17",
+                "version_normalized": "1.0.17.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "f22820dd0854a406f86e2fc29b81c1898d68e5fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/f22820dd0854a406f86e2fc29b81c1898d68e5fb",
+                    "reference": "f22820dd0854a406f86e2fc29b81c1898d68e5fb",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-08-17T18:19:30+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.18": {
+                "name": "composer/installers",
+                "version": "v1.0.18",
+                "version_normalized": "1.0.18.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                    "reference": "74fb0a7a1a23696d9c8cc2fba5903f6711cdd067",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-08-18T20:00:12+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.19": {
+                "name": "composer/installers",
+                "version": "v1.0.19",
+                "version_normalized": "1.0.19.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "89d77bfbee79e16653f7162c86e602cc188471db"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/89d77bfbee79e16653f7162c86e602cc188471db",
+                    "reference": "89d77bfbee79e16653f7162c86e602cc188471db",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2014-11-29T01:29:17+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.2": {
+                "name": "composer/installers",
+                "version": "v1.0.2",
+                "version_normalized": "1.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "ddc8202188caa5b3bdfdeee365c265075f92c450"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/ddc8202188caa5b3bdfdeee365c265075f92c450",
+                    "reference": "ddc8202188caa5b3bdfdeee365c265075f92c450",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-02-18T00:51:06+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.20": {
+                "name": "composer/installers",
+                "version": "v1.0.20",
+                "version_normalized": "1.0.20.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+                    "reference": "1bff8aa77a18f3616f468ed8000cf86a5725bac3",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2015-01-11T03:51:11+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.21": {
+                "name": "composer/installers",
+                "version": "v1.0.21",
+                "version_normalized": "1.0.21.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                    "reference": "d64e23fce42a4063d63262b19b8e7c0f3b5e4c45",
+                    "shasum": ""
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2015-02-18T17:17:01+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.22": {
+                "name": "composer/installers",
+                "version": "v1.0.22",
+                "version_normalized": "1.0.22.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                    "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2015-10-29T23:28:48+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.23": {
+                "name": "composer/installers",
+                "version": "v1.0.23",
+                "version_normalized": "1.0.23.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                    "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2016-01-27T12:54:22+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.24": {
+                "name": "composer/installers",
+                "version": "v1.0.24",
+                "version_normalized": "1.0.24.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                    "reference": "1cf7cc4b89d5e8549bbb7d6ab1de75da13d27988",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2016-04-05T11:42:46+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "ImageCMS",
+                    "MODX Evo",
+                    "Mautic",
+                    "OXID",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.25": {
+                "name": "composer/installers",
+                "version": "v1.0.25",
+                "version_normalized": "1.0.25.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                    "reference": "36e5b5843203d7f1cf6ffb0305a97e014387bd8e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2016-04-13T19:46:30+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "ImageCMS",
+                    "MODX Evo",
+                    "Mautic",
+                    "OXID",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.0.3": {
+                "name": "composer/installers",
+                "version": "v1.0.3",
+                "version_normalized": "1.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "85e44424e7c64421904806b06a36244e52cd90f6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/85e44424e7c64421904806b06a36244e52cd90f6",
+                    "reference": "85e44424e7c64421904806b06a36244e52cd90f6",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-03-02T22:45:58+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "yii",
+                    "zend"
+                ]
+            },
+            "v1.0.4": {
+                "name": "composer/installers",
+                "version": "v1.0.4",
+                "version_normalized": "1.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "addefce3784a3005e0713726190d9c0e8cbac3d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/addefce3784a3005e0713726190d9c0e8cbac3d2",
+                    "reference": "addefce3784a3005e0713726190d9c0e8cbac3d2",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-06-20T02:36:19+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "modulework",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.5": {
+                "name": "composer/installers",
+                "version": "v1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "5bad5563431576e1b318c7326c0e61c6567000bd"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/5bad5563431576e1b318c7326c0e61c6567000bd",
+                    "reference": "5bad5563431576e1b318c7326c0e61c6567000bd",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-08-07T17:25:08+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "modulework",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.6": {
+                "name": "composer/installers",
+                "version": "v1.0.6",
+                "version_normalized": "1.0.6.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                    "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-08-20T04:37:09+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 CMS",
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "modulework",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.7": {
+                "name": "composer/installers",
+                "version": "v1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "d792632d27e1980d921cbbba12eab7b888338d4c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/d792632d27e1980d921cbbba12eab7b888338d4c",
+                    "reference": "d792632d27e1980d921cbbba12eab7b888338d4c",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-10-24T16:13:49+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 CMS",
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "drupal",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "modulework",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.8": {
+                "name": "composer/installers",
+                "version": "v1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "c87cfc35882eb50df3eef1734bfa52fbcd6c782c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/c87cfc35882eb50df3eef1734bfa52fbcd6c782c",
+                    "reference": "c87cfc35882eb50df3eef1734bfa52fbcd6c782c",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2013-12-24T18:04:46+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "TYPO3 CMS",
+                    "TYPO3 Flow",
+                    "TYPO3 Neos",
+                    "agl",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "li3",
+                    "lithium",
+                    "mako",
+                    "modulework",
+                    "phpbb",
+                    "ppi",
+                    "silverstripe",
+                    "symfony",
+                    "wordpress",
+                    "zend"
+                ]
+            },
+            "v1.0.9": {
+                "name": "composer/installers",
+                "version": "v1.0.9",
+                "version_normalized": "1.0.9.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "8e3e734c50b8f60228baf439d5ab16c57d67f6ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/8e3e734c50b8f60228baf439d5ab16c57d67f6ce",
+                    "reference": "8e3e734c50b8f60228baf439d5ab16c57d67f6ce",
+                    "shasum": ""
+                },
+                "replace": {
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2014-01-27T03:45:57+00:00",
+                "type": "composer-installer",
+                "extra": {
+                    "class": "Composer\\Installers\\Installer",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Composer\\Installers\\": "src/"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama",
+                        "role": "Developer"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "http://composer.github.com/installers/",
+                "keywords": [
+                    "Hurad",
+                    "MODX Evo",
+                    "OXID",
+                    "agl",
+                    "annotatecms",
+                    "cakephp",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "drupal",
+                    "elgg",
+                    "fuelphp",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.1.0": {
+                "name": "composer/installers",
+                "version": "v1.1.0",
+                "version_normalized": "1.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "a3595c5272a6f247228abb20076ed27321e4aae9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/a3595c5272a6f247228abb20076ed27321e4aae9",
+                    "reference": "a3595c5272a6f247228abb20076ed27321e4aae9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2016-07-05T06:18:20+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "ImageCMS",
+                    "MODX Evo",
+                    "Mautic",
+                    "OXID",
+                    "RadPHP",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "expressionengine",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.2.0": {
+                "name": "composer/installers",
+                "version": "v1.2.0",
+                "version_normalized": "1.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "d78064c68299743e0161004f2de3a0204e33b804"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/d78064c68299743e0161004f2de3a0204e33b804",
+                    "reference": "d78064c68299743e0161004f2de3a0204e33b804",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2016-08-13T20:53:52+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Hurad",
+                    "ImageCMS",
+                    "MODX Evo",
+                    "Mautic",
+                    "OXID",
+                    "Plentymarkets",
+                    "RadPHP",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "attogram",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "cockpit",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "expressionengine",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "reindex",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "yawik",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.3.0": {
+                "name": "composer/installers",
+                "version": "v1.3.0",
+                "version_normalized": "1.3.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                    "reference": "79ad876c7498c0bbfe7eed065b8651c93bfd6045",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2017-04-24T06:37:16+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Eliasis",
+                    "Hurad",
+                    "ImageCMS",
+                    "Kanboard",
+                    "MODX Evo",
+                    "Mautic",
+                    "Maya",
+                    "OXID",
+                    "Plentymarkets",
+                    "Porto",
+                    "RadPHP",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "attogram",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "cockpit",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "elgg",
+                    "expressionengine",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "itop",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lavalite",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "reindex",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "sydes",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "yawik",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.4.0": {
+                "name": "composer/installers",
+                "version": "v1.4.0",
+                "version_normalized": "1.4.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                    "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "4.1.*"
+                },
+                "time": "2017-08-09T07:53:48+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Eliasis",
+                    "Hurad",
+                    "ImageCMS",
+                    "Kanboard",
+                    "Lan Management System",
+                    "MODX Evo",
+                    "Mautic",
+                    "Maya",
+                    "OXID",
+                    "Plentymarkets",
+                    "Porto",
+                    "RadPHP",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "attogram",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "cockpit",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "eZ Platform",
+                    "elgg",
+                    "expressionengine",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "itop",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lavalite",
+                    "lithium",
+                    "magento",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "moodle",
+                    "osclass",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "reindex",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "sydes",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "yawik",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "v1.5.0": {
+                "name": "composer/installers",
+                "version": "v1.5.0",
+                "version_normalized": "1.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "049797d727261bf27f2690430d935067710049c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
+                    "reference": "049797d727261bf27f2690430d935067710049c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "^4.8.36"
+                },
+                "time": "2017-12-29T09:13:20+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Eliasis",
+                    "Hurad",
+                    "ImageCMS",
+                    "Kanboard",
+                    "Lan Management System",
+                    "MODX Evo",
+                    "Mautic",
+                    "Maya",
+                    "OXID",
+                    "Plentymarkets",
+                    "Porto",
+                    "RadPHP",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "attogram",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "cockpit",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "eZ Platform",
+                    "elgg",
+                    "expressionengine",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "itop",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lavalite",
+                    "lithium",
+                    "magento",
+                    "majima",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "modx",
+                    "moodle",
+                    "osclass",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "pxcms",
+                    "reindex",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "sydes",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "yawik",
+                    "zend",
+                    "zikula"
+                ]
+            },
+            "dev-master": {
+                "name": "composer/installers",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/composer/installers.git",
+                    "reference": "049797d727261bf27f2690430d935067710049c2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/composer/installers/zipball/049797d727261bf27f2690430d935067710049c2",
+                    "reference": "049797d727261bf27f2690430d935067710049c2",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "^1.0"
+                },
+                "replace": {
+                    "roundcube/plugin-installer": "*",
+                    "shama/baton": "*"
+                },
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev",
+                    "phpunit/phpunit": "^4.8.36"
+                },
+                "time": "2017-12-29T09:13:20+00:00",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Composer\\Installers\\Plugin",
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Composer\\Installers\\": "src/Composer/Installers"
+                    }
+                },
+                "notification-url": "https://packagist.org/downloads/",
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Kyle Robinson Young",
+                        "email": "kyle@dontkry.com",
+                        "homepage": "https://github.com/shama"
+                    }
+                ],
+                "description": "A multi-framework Composer library installer",
+                "homepage": "https://composer.github.io/installers/",
+                "keywords": [
+                    "Craft",
+                    "Dolibarr",
+                    "Eliasis",
+                    "Hurad",
+                    "ImageCMS",
+                    "Kanboard",
+                    "Lan Management System",
+                    "MODX Evo",
+                    "Mautic",
+                    "Maya",
+                    "OXID",
+                    "Plentymarkets",
+                    "Porto",
+                    "RadPHP",
+                    "SMF",
+                    "Thelia",
+                    "WolfCMS",
+                    "agl",
+                    "aimeos",
+                    "annotatecms",
+                    "attogram",
+                    "bitrix",
+                    "cakephp",
+                    "chef",
+                    "cockpit",
+                    "codeigniter",
+                    "concrete5",
+                    "croogo",
+                    "dokuwiki",
+                    "drupal",
+                    "eZ Platform",
+                    "elgg",
+                    "expressionengine",
+                    "fuelphp",
+                    "grav",
+                    "installer",
+                    "itop",
+                    "joomla",
+                    "kohana",
+                    "laravel",
+                    "lavalite",
+                    "lithium",
+                    "magento",
+                    "majima",
+                    "mako",
+                    "mediawiki",
+                    "modulework",
+                    "modx",
+                    "moodle",
+                    "osclass",
+                    "phpbb",
+                    "piwik",
+                    "ppi",
+                    "puppet",
+                    "pxcms",
+                    "reindex",
+                    "roundcube",
+                    "shopware",
+                    "silverstripe",
+                    "sydes",
+                    "symfony",
+                    "typo3",
+                    "wordpress",
+                    "yawik",
+                    "zend",
+                    "zikula"
+                ]
+            }
+        }
+    }
+}
